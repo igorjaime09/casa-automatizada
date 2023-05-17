@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CASA AUTOMATIZADA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+      <div class="circle"></div>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+            <a href="index.html"><img src="assets/logo.png" class="logo"></a>
+        </div>
+  
+        <div class="nav-list">
+          <ul>
+              <li class="nav-item"><a href="index.html">Home</a></li>
+              <li class="nav-item"><a href="Cadastro.html">Cadastro</a></li>
+              <li class="nav-item"><a href="https://www.gov.br/pt-br">Gov.br</a></li>
+              <li class="nav-item"><a href="sobre.html">Sobre</a></li>
+          </ul>
+        </div>  
+
+        </div>
+      </nav>
+    </header>
+    <div class="content">
+      <div class="textBox">
+        <h2> Projeto <span>Casa Automatizada</span></h2>
+        <p>O projeto de casas automatizadas é uma iniciativa inovadora e socialmente responsável, visando melhorar as 
+        condições de vida das pessoas que vivem em comunidades. Essas casas automatizadas 
+        poderam oferecer uma série de benefícios e funcionalidades que ajudará a atender às 
+        necessidades básicas dos moradores e a promover um ambiente mais seguro, confortável e sustentável.</p>
+        <a href="Cadastro.html">Cadrastre aqui</a>
+        <p><br><br><span>SITE UTILIZADO PARA APRESENTAÇÃO 
+        UNIVERSITÁRIA QUALQUER CONTEÚDO DA PÁGINA DEVE SER DESCONSIDERADO.</span> </p>
+      </div>
+      <div class="imgBox">
+        <img src="assets/img1.png" class="casa" >
+      </div>
+      </div>
+    </div>
+    <ul class="thumb">
+      <li><img src="assets/thumb1.png" onclick="imgSlider('assets/img1.png'); changeCircleColor('#017143')"></li>
+    </ul>
+    <ul class="sci"> 
+      <li><a href="https://www.facebook.com/governogoias/"><img src="assets/facebook.png"></a></li>
+      <li><a href="https://www.instagram.com/governogoias/"><img src="assets/instagram.png"></a></li>
+      <li><a href="https://twitter.com/governogoias"><img src="assets/twitter.png"></a></li>
+    </ul>
+  </section>
+
+  <script type="text/javascript">
+    function imgSlider (anything){
+      document.querySelector('.casa').src = anything;
+    }
+  </script>
+    
+</body>
+</html>

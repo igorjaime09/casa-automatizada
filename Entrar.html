@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Entrar</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="assets/logo.png" class="logo"></a>
+            </div>
+    
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="Cadastro.html">Cadastro</a></li>
+                    <li class="nav-item"><a href="https://www.gov.br/pt-br">Gov.br</a></li>
+                    <li class="nav-item"><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>  
+        </nav>
+    </header>   
+    <main id="container">
+        <form id="login_form">
+            <!-- FORM HEADER -->
+            <div id="form_header">
+                <h1>Entrar</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+
+            <!-- SOCIAL MEDIA LINKS -->
+            <div id="social_media">
+                <!-- FACEBOOK -->
+                <a href="#">
+                    <img src="assets/img/facebook.png" alt="">
+                </a>
+
+                <!-- GOOGLE -->
+                <a href="#">
+                    <img src="assets/img/google.png" alt="Google logo">
+                </a>
+                
+                <!-- GITHUB -->
+                <a href="#">
+                    <img src="assets/img/github.png" alt="">
+                </a>
+            </div>
+
+            <!-- INPUTS -->
+            <div id="inputs">
+                <!-- NAME -->
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- EMAIL -->
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- PASSWORD -->
+                <div class="input-box">
+                    <label for="password">
+                        Senha
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                    </label>
+                    
+                    <!-- FORGOT PASSWORD -->
+                    <div id="forgot_password">
+                        <a href="#">
+                            Esqueceu sua senha?
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGIN BUTTON -->
+            <button type="submit" id="login_button">
+                <a href="login.html">
+                    Entrar 
+                </a>
+            </button>
+        </form>
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
